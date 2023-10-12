@@ -1,0 +1,64 @@
+// .qna {
+//     padding: 20px;
+//     display: flex;
+// }
+
+// .qna__right {
+//     // border: 2px solid red;
+//     > .qna__passageInput {
+//         > textarea {
+//             border-radius: 20px;
+//             // border: 2px solid black;
+//             padding: 10px;
+//             margin: 10px;
+//             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+//         }
+//     }
+// }
+.qna__passageInput,
+.qna__qInput {
+    width: 100%;
+}
+.qna__heading {
+    width: 100%;
+    text-align: center;
+}
+
+.qna__ansBox {
+    // border: 2px solid red;
+    width: 100%;
+}
+.qna__ansHeder {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.qna__ansBox {
+    overflow-y: scroll;
+    height: 60vh;
+}
+.qna__ansBoxItem {
+    // border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 7px;
+    width: 90%;
+
+    > p {
+        padding: 0;
+        margin: 0;
+    }
+    > .qna__ansBoxans {
+        font-size: 1.1rem;
+        font-weight: bold;
+        > .qna__ansBoxScore {
+            font-size: 0.9rem;
+            font-weight: 100;
+            text-transform: capitalize;
+        }
+    }
+    > .qna__ansBoxContent {
+        font-size: 1rem;
+    }
+}

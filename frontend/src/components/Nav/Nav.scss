@@ -1,0 +1,18 @@
+.nav {
+    background-color: rgba(220, 220, 220, 0.403);
+    padding: 10px;
+    > ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        list-style: none;
+        > li {
+            padding: 10px;
+            margin: 2px;
+            text-transform: capitalize;
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.089);
+            }
+        }
+    }
+}

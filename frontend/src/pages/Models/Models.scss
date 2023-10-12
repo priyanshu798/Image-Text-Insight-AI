@@ -1,0 +1,14 @@
+.models__cameraIsOff {
+    > p {
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    > img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
